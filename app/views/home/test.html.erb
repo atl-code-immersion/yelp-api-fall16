@@ -1,0 +1,10 @@
+<h1>Test Page</h1>
+
+<div>
+	<% @results.businesses.each do |business| %>
+		<ul>
+			<li><%= business.name %></li>
+			<li><%= business.rating %></li>
+		</ul>
+	<% end %>
+</div>
